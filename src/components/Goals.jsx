@@ -1,6 +1,6 @@
-import { Box, InfoIcon, ArrowUpIcon, ArrowDownIcon, Text } from "native-base";
+import { Box, InfoIcon, Text } from "native-base";
 
-export default function Goals ({goal, setGoal }) {
+export default function Goals ({ goal }) {
   return(
     <Box height={100} width="100%" alignItems="center" justifyContent="center">
       <Text color="blue.300" fontSize="lg">
